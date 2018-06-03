@@ -10,8 +10,6 @@ You need to do this in order to be able to create commits going forward.
 
 
 
-
-
 How is the staging area different from the working directory and the repository?
 
 The staging area is a temporary space that allows you to collect what you want to commit.  It lets your organize things before adding to the repository.
@@ -30,9 +28,11 @@ You can update the staging area to contain only those changes which reflect the 
 You can do this even if you have multiple changes to multiple files, by running through multiple stage/commit cycles.
 
 
+
 What are some situations when branches would be helpful in keeping your history organized? 
 
 There are lots.  If you are trying new control flows, or refactoring code or for any reason you might want to have multiple concurrent versions.
+
 
 
 How would branches help?
@@ -40,14 +40,23 @@ How would branches help?
 They allow the versions to exist concurrently, and you can go back and forth between them easily.
 
 
+
 How do the diagrams help you visualize the branch structure?
 
 They show you where branches were created and how to reach back along the various branches.
 
 
+
 What is the result of merging two branches together? 
 
+We incorporate the changes between the branches, referring back to the last common origin to resolve ambiguity. 
+
+
+
 Why do we represent it in the diagram the way we do?
+
+Because this is how it happens?  Branches get re-joined in the way indicated by the diagram.
+
 
 What are the pros and cons of Git's automatic merging vs. always doing merges manually?
 
