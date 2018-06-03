@@ -3,6 +3,7 @@ What happens when you initialize a repository?
 git creates a hidden .git folder (the repository).  No commits are created. 
 
 
+
 Why do you need to do it?
 
 You need to do this in order to be able to create commits going forward.
@@ -14,7 +15,15 @@ You need to do this in order to be able to create commits going forward.
 How is the staging area different from the working directory and the repository?
 
 
+The staging area is a temporary space that allows you to collect what you want to commit.  It lets your organize things before adding to the repository.
+
+
+
 What value do you think it offers?
+
+
+
+It allows you to plan and fix things.
 
 
 
@@ -41,3 +50,6 @@ the diagram the way we do?
 
 What are the pros and cons of Git's automatic merging vs. always doing merges
 manually?
+
+
+Need to try to recommit!
