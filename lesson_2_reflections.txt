@@ -58,5 +58,7 @@ Why do we represent it in the diagram the way we do?
 Because this is how it happens?  Branches get re-joined in the way indicated by the diagram.
 
 
+
 What are the pros and cons of Git's automatic merging vs. always doing merges manually?
 
+Automatic merging can merge huge portions of data that don't need scrutiny, saving tons of time.  But you need to reserve the manual ability for certain cases.
