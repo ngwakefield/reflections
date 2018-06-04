@@ -18,3 +18,8 @@ A branch is a split from a repository.  Use this if you want multiple versions o
 What is the benefit of having a copy of the last known state of the remote stored locally?
 
 You are up to date!  If you go out of intenet access, you can be sure that you are working with the most recent version of the repository.
+
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+Oh, man OneNote! Way harder to track logical changes, but super easy for just tracking notes and comments.
