@@ -23,3 +23,13 @@ You are up to date!  If you go out of intenet access, you can be sure that you a
 How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
 
 Oh, man OneNote! Way harder to track logical changes, but super easy for just tracking notes and comments.
+
+
+When would you want to make changes in a separate branch rather than directly in master? 
+
+Lots of reasons -- mainly when you want to leave a working version going in master.  Experimenting, hotfixes, collaboration, etc.
+
+
+What benefits does each approach have?
+
+Making changes in master keeps the complexity down; having to merge in multiple branches is hard.  But having branches allows for lots of creativity and flexibility.
